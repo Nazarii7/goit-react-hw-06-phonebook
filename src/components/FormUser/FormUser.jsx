@@ -1,6 +1,6 @@
-import { addContact } from 'redux/contactSlice';
+import { addContact } from 'components/redux/contactSlice';
 import { useSelector, useDispatch } from 'react-redux';
-import { getContacts } from 'redux/selector';
+import { getContacts } from 'components/redux/selector';
 import css from './FormUser.module.css';
 import { toast } from 'react-toastify';
 import shortid from 'shortid';

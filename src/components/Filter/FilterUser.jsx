@@ -1,8 +1,8 @@
 // import PropTypes from 'prop-types';
 import css from './FilterUser.module.css';
 import { useDispatch, useSelector } from 'react-redux';
-import { getFilter } from 'redux/selector';
-import { filterContact } from 'redux/contactSlice';
+import { getFilter } from 'components/redux/selector';
+import { filterContact } from 'components/redux/contactSlice';
 
 const FilterUser = () => {
   const filter = useSelector(getFilter);
