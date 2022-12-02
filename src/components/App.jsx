@@ -1,8 +1,4 @@
-// import { useState } from 'react';
-// import useLocalStorage from './hooks/useLocalStorage';
-
-// import shortid from 'shortid';
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 import FormUser from './FormUser/FormUser';
@@ -72,3 +68,5 @@ export const App = () => {
     </div>
   );
 };
+
+export default App;
